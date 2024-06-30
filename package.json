@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "probando servidor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreazunino/practica_servidor.git"
+  },
+  "author": "ignacio y andrea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreazunino/practica_servidor/issues"
+  },
+  "homepage": "https://github.com/andreazunino/practica_servidor#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
