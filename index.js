@@ -34,7 +34,7 @@ let loans = [
   { id: 3, bookId: 3, userId: 3, loanDate: '2023-06-03' }
 ];
 
-// Rutas de ejemplo para libros
+// Rutas para libros
 app.get('/api/books', (req, res) => {
   res.json(books);
 });
@@ -82,7 +82,7 @@ app.delete('/api/books/:id', (req, res) => {
   res.status(204).end();
 });
 
-// Rutas de ejemplo para autores
+// Rutas para autores
 app.get('/api/authors', (req, res) => {
   res.json(authors);
 });
@@ -129,7 +129,7 @@ app.delete('/api/authors/:id', (req, res) => {
   res.status(204).end();
 });
 
-// Rutas de ejemplo para usuarios
+// Rutas para usuarios
 app.get('/api/users', (req, res) => {
   res.json(users);
 });
@@ -176,7 +176,7 @@ app.delete('/api/users/:id', (req, res) => {
   res.status(204).end();
 });
 
-// Rutas de ejemplo para préstamos
+// Rutas para prestamos
 app.get('/api/loans', (req, res) => {
   res.json(loans);
 });
